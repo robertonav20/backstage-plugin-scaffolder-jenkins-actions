@@ -1,11 +1,6 @@
 import { coreServices, createBackendModule } from '@backstage/backend-plugin-api';
 import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
-import { buildJob } from './actions/job/build';
-import { copyJob } from './actions/job/copy';
-import { createJob } from "./actions/job/create";
-import { destroyJob } from './actions/job/destroy';
-import { disableJob } from './actions/job/disable';
-import { enableJob } from './actions/job/enable';
+import { buildJob, copyJob, createJob, destroyJob, disableJob, enableJob } from './actions/job/';
 import { buildJenkinsClient, JenkinsConfig } from "./config";
 
 /**

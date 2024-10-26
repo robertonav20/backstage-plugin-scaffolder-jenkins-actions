@@ -1,5 +1,3 @@
-import { scaffolderBackendModuleJenkinsActions } from './module';
-
 /***/
 /**
  * The backstage-plugin-scaffolder-jenkins-actions module for @backstage/plugin-scaffolder-backend.
@@ -7,6 +5,5 @@ import { scaffolderBackendModuleJenkinsActions } from './module';
  * @packageDocumentation
  */
 
+export * from './module';
 export * from './actions';
-
-export default scaffolderBackendModuleJenkinsActions;

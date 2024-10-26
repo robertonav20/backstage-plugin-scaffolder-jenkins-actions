@@ -1,4 +1,4 @@
-# backstage-plugin-scaffolder-jenkins-actions
+# Backstage Plugin Scaffolder Jenkins Actions - Alpha
 
 The backstage-plugin-scaffolder-jenkins-actions module for [@backstage/plugin-scaffolder-backend](https://www.npmjs.com/package/@backstage/plugin-scaffolder-backend).
 
@@ -24,3 +24,5 @@ jenkins:
 ```
 
 The jenkins client used is available here https://github.com/silas/node-jenkins#readme
+
+Here the link to npm package https://www.npmjs.com/package/@robertonav20/backstage-plugin-scaffolder-jenkins-actions

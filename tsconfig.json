@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "declaration": true,               // Ensures declaration files are generated
+      "declarationDir": "dist-types",    // Output directory for .d.ts files
+      "emitDeclarationOnly": true,       // Only emit declarations to speed up build
+      "outDir": "dist",                  // Directory for compiled .js files
+      "rootDir": "./",                  // Input source directory
+      "target": "ES2015",                // ECMAScript target, adjust as needed
+      "module": "commonjs",              // Module system for Node.js
+      "esModuleInterop": true,           // Allows CommonJS interop
+      "skipLibCheck": true,               // Speeds up compilation
+      "strict": true,  
+    },
+    "include": [
+      "src"
+    ]
+  }
