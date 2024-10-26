@@ -5,5 +5,6 @@
  * @packageDocumentation
  */
 
-export * from './module';
 export * from './actions';
+
+export { scaffolderBackendModuleJenkinsActions as default } from './module';
