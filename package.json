@@ -1,7 +1,7 @@
 {
   "name": "@robertonav20/backstage-plugin-scaffolder-jenkins-actions",
   "description": "The backstage-plugin-scaffolder-jenkins-actions module for @backstage/plugin-scaffolder-backend",
-  "version": "0.0.1-alpha2",
+  "version": "0.0.1-alpha3",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "backstage-plugin-scaffolder-jenkins-actions",
