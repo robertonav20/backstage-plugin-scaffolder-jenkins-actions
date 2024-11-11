@@ -14,6 +14,9 @@ const HTTPS_PROTOCOL: string = 'https://';
 
 export const jenkinsConfigStructure = {
     baseUrl: 'string',
+    username: 'string',
+    password: 'string',
+    crumbIssuerEnabled: 'boolean',
     headers: 'Record<string, string> | null'
 };
 
